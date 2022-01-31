@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+    color: white;
+    padding: 40px 0 40px 0;
+}
+
+.card-sedans {
+    width: 350px;
+    height: 550px;
+    background-color: hsl(31, 77%, 52%);
+    padding: 45px;
+    border-radius: 10px 0 0 10px;
+}
+
+
+.card-suvs {
+    width: 350px;
+    height: 550px;
+    background-color: hsl(184, 100%, 22%);
+    padding: 45px;
+}
+
+.card-luxury {
+    width: 350px;
+    height: 550px;
+    background-color: hsl(179, 100%, 13%);
+    padding: 45px;
+    border-radius: 0 10px 10px 0;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.8;
+    padding: 0 50px 100px 0;
+}
+
+.button-sedans{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    background: white;
+    border: solid hsl(0, 0%, 95%) 2px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+}
+
+.button-sedans:hover{
+    color: hsla(0, 0%, 100%, 0.75);
+    background: none;
+    
+}
+
+.button-suvs{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+    background: white;
+    border: solid hsl(0, 0%, 95%) 2px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+}
+
+.button-suvs:hover{
+    color: hsla(0, 0%, 100%, 0.75);
+    background: none;
+    
+}
+.button-luxury{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+    background: white;
+    border: solid hsl(0, 0%, 95%) 2px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+}
+
+.button-luxury:hover{
+    color: hsla(0, 0%, 100%, 0.75);
+    background: none;
+}
